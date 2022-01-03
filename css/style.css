@@ -1,0 +1,136 @@
+/* ### Primary */
+/* ### Neutral */
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #e0e8ff;
+}
+
+body a,
+html a {
+  text-decoration: underline;
+}
+
+body a, body button, body span,
+html a,
+html button,
+html span {
+  cursor: pointer;
+}
+
+body {
+  background-image: url("/images/pattern-background-desktop.svg");
+}
+
+.cantainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 700px;
+  width: 450px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+  border-radius: 15px;
+  margin-top: 100px;
+  margin-bottom: 85px;
+  overflow: hidden;
+}
+
+.card img {
+  height: 220px;
+}
+
+.card h1,
+.card h3 {
+  color: #1f2f56;
+  margin-bottom: 0px;
+}
+
+.card h1 {
+  margin-top: 45px;
+}
+
+.card h3 {
+  margin: 0px;
+}
+
+.card P {
+  color: #7280a7;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.card button {
+  background-color: #3829e0;
+  border-radius: 10px;
+  border: none;
+  color: #f5f7ff;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  height: 45px;
+  width: 350px;
+  -webkit-box-shadow: 2px 8px 15px #888888;
+          box-shadow: 2px 8px 15px #888888;
+  font-weight: bold;
+}
+
+.card button:hover {
+  opacity: 70%;
+}
+
+.card span {
+  color: #7280a7;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card span:hover {
+  color: black;
+}
+
+.card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+  padding-top: 30px;
+}
+
+.card-content img {
+  height: 40px;
+  width: 40px;
+  padding-right: 15px;
+}
+
+.card-content h3 {
+  padding-right: 90px;
+}
+
+.card-content a:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
